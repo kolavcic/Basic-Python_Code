@@ -1,0 +1,1 @@
+broj = input("Unesi broj")

@@ -1,0 +1,1 @@
+print ('A ja sam rekao: "Hej dodji ovamo!" ')
