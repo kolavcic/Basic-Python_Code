@@ -11,8 +11,8 @@ for i in range (n):
 
 suma_negativni_neparni=0
 
-for broj in ucitani_brojevi:
-    if broj % 2 != and broj < 0:
-        suma_negativni_neparni += broj
+#for broj in ucitani_brojevi:
+    #if broj % 2 != and broj < 0:
+        #suma_negativni_neparni += broj
 
-print(f"Zbir neparnih negativnih je {suma_negativni_neparni}")
+#print(f"Zbir neparnih negativnih je {suma_negativni_neparni}")
