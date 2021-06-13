@@ -12,8 +12,8 @@ if n<=0:
     print("Greska: neispravan unos.")
     exit(1)
 
-for i in range(n):
-        slovo = str(input(f"Unesite  karakter."))
+for i in range(1,n+1):
+        slovo = str(input(f"Unesite {i}. karakter."))
         karakteri.append(slovo)
 if slovo in rec:
     print("Moze se napisati rec Zima.")
