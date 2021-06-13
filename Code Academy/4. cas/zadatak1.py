@@ -20,8 +20,10 @@ else:
         cene.append(cena)
         if cena<0:
             print("Greska: neispravan unos cene.")
+            exit(3)
         if cena==0:
             print("Nisu unete cene.")
+            exit(4)
 zbir = sum(cene)
 
 print(f"Prosecna cena: {zbir/n:.4f}.")
