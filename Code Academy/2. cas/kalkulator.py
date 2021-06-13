@@ -31,5 +31,5 @@ print("Razlika brojeva " + korisnik, broj1 - broj2)
 print("Proizvod brojeva " + korisnik, broj1 * broj2)
 
 #Racunanje deljenja brojeva koje je korisnik uneo.
-print("Kolicnik brojeva "  + korisnik, broj1 // broj2)
+print("Kolicnik brojeva "  + korisnik, broj1 / broj2)
 print(type(korisnik))
