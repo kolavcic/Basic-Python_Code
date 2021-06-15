@@ -2,10 +2,11 @@
 
 n = int(input("Unesite broj: "))
 plus = "+"
-for i in range(1, n+1):
-    for j in range(1 ,n+1):
-        if i==n/2 or j==n/2:
+for red in range(n):
+    for kolona in range(1 ,n+1):
+        if red==n or kolona==n:
             print(f"{plus}", end="")
+        elif kolona 
         else:
             print(" ", end="")
     print()
